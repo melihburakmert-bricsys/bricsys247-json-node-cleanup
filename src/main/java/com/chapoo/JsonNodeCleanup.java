@@ -41,7 +41,7 @@ public class JsonNodeCleanup {
 
     public static void main(final String[] args) throws IOException {
         if (args.length != 2) {
-            System.err.println("Usage: java -jar json-cleanup.jar <json-node-key> <directory_with_json_files>");
+            System.err.println("Usage: java -jar json-node-cleanup-xx.jar <json-node-key> <directory_with_json_files>");
             System.exit(1);
         }
         final String key = args[0];
